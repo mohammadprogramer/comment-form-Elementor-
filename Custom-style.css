@@ -1,0 +1,137 @@
+#comments .comment .comment-body, #comments .pingback .comment-body {
+    display: flex
+;
+    flex-direction: column;
+    padding-block-start: 30px;
+    padding-block-end: 30px;
+    padding-inline-start: 60px;
+    padding-inline-end: 0;
+    border-block-end: 0px solid #ccc;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04);
+}
+
+.comment-metadata a {
+   color: #1976d2;
+}
+
+#comments .comment-metadata, #comments .reply {
+    font-size: 11px;
+    line-height: 1;
+    margin-left: 20px;
+}
+
+#email{
+  background-color: #F1F1F1;
+   margin-bottom: 10px;
+   width: 100%;
+}
+
+.avatar.avatar-42.photo {
+    margin-right: 5px;
+}
+
+
+#author {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+        margin-bottom: 10px;
+   background-color: #F1F1F1;
+    width: 100%;
+}
+
+.comment-form-comment #comment{
+    
+}
+
+.comment-form-comment label{
+    display: none;
+}
+
+.comment-form-email label{
+    display: none;
+}
+.comment-form-cookies-consent{
+    display: none;
+}
+.comment-form-url{
+     display: none;
+}
+
+.my-comment-form #submit{
+    width: 300px;
+    background-color: #0189FF;
+    color:white;
+    border-radius: 15px;
+    border-color: white;
+    float: left;
+}
+#comment :active {
+    border-color:white;
+}
+
+
+
+
+  /* فرم ارسال نظر */
+  .comment-form {
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+
+
+  .comment-textarea {
+      width:60%; /* عرض 50 درصد برای عنصر کامنت */
+      max-height:200px;
+      
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    padding: .5rem 1rem;
+    transition: all .3s;
+    background-color: #F1F1F1;
+  }
+
+  .input-group {
+   
+    flex-direction: column;
+    
+    gap: 10px;
+    width:27%;
+    
+  }
+
+  .input-group input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    font-family: 'Vazirmatn', sans-serif;
+    display: flex;
+  }
+  
+
+
+  #submit {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: auto;
+    align-self: flex-start;
+    width: 100%;
+  }
+  
+  
+ .comment-form-cookies-consent{
+    display: none;
+}
